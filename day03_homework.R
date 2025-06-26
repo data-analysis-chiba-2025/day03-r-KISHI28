@@ -1,6 +1,6 @@
 # DAY 3 HOMEWORK
 #
-# Name:
+# Name: Kishi Suzuran
 
 # 0. This demonstrates how to save your answers.
 # I've written the answer for you.
@@ -28,6 +28,11 @@ answer_0 <- 365 * 5
 weight_lb <- 160
 height_ft <- 6
 
+#kg  weight_lb * 0.4536
+#m  height_ft * 0.3048
+
+answer_1 <- (weight_lb * 0.4536) /  (height_ft * 0.3048) ^ 2
+
 # 2. The following code has an error. Fix it by editing the code.
 # (You don't need to save a separate answer for this one, just fix the code.)
 
@@ -43,10 +48,15 @@ y <- 3
 z <- x + y
 x <- 5
 
+answer_3 <- 5
+
+
 # 4. The sqrt() function calculates the square root of a number.
 #
 # Use the sqrt() function to calculate the square root of 200, and
 # save your answer in an object called answer_4.
+
+answer_4 <- sqrt(200)
 
 # 5. The seq() function generates sequences of numbers.
 # Its arguments include "from" (the starting number), "to"
@@ -56,16 +66,24 @@ x <- 5
 # Use seq() make a sequence of even numbers starting at 2 and ending at 100, and
 # save your answer in an object called answer_5
 
+answer_5 <- seq(2,100,2)
+
 # 6. Make a vector of logical values (TRUE and FALSE), and save it to an
 #  object called lgl_vec
 #  Next, make vector of character values, and save it to an object
 #  called called chr_vec
 #  Next, combine lgl_vec and chr_vec.
+
+lgl_vec <- c(TRUE , FALSE)
+chr_vec <- c("character","values")
+mixed_vec <- c(lgl_vec , chr_vec)
+
 #
 # What is the type of vector that you obtain? Check with the typeof() function.
 #
 # Save your answer in an object called answer_6
 #
+answer_6 <- typeof(mixed_vec)
 # HINT: use c() to make vectors
 # HINT: characters are always written with quotation marks
 
@@ -78,3 +96,7 @@ letters
 # Save your answer in an object called answer_7
 #
 # HINT: Use `seq()` inside the square brackets
+
+#answer_7 <- 
+letters[seq(1,25,2)]
+
