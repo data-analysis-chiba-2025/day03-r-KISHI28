@@ -9,6 +9,7 @@
 # Calculate the product of 365 and 5.
 # Save your answer to an object called answer_0
 
+
 answer_0 <- 365 * 5
 
 # 1. Let's use R to calculate body mass index (BMI)
@@ -37,7 +38,7 @@ answer_1 <- (weight_lb * 0.4536) /  (height_ft * 0.3048) ^ 2
 # (You don't need to save a separate answer for this one, just fix the code.)
 
 volume_oz <- 130
-volume_ml <- Volume_oz * 29.574
+volume_ml <- volume_oz * 29.574
 
 # 3. What is the value of z after running the following code?
 #
@@ -97,6 +98,4 @@ letters
 #
 # HINT: Use `seq()` inside the square brackets
 
-#answer_7 <- 
-letters[seq(1,25,2)]
-
+answer_7 <- letters[seq(1,25,2)]
